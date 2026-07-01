@@ -1,0 +1,70 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (keep .env.example for deployment reference)
+.env
+.env.local
+.env.production
+.env.development
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+local-*
+.claude
+*.log
+dev.log
+dev.out.log
+test
+prompt
+
+# Platform-specific (space-z.ai only — not needed on GitHub/Vercel)
+.z-ai-config
+.zscripts/
+/skills/
+/scripts/
+/agent-ctx/
+/download/
+/examples/
+/mini-services/
+/tool-results/
+/upload/
+Caddyfile
+server.log
+worklog.md
+
+# Prisma SQLite DB (use cloud DB on Vercel)
+db/
+prisma/db/

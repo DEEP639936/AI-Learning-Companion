@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "buildCommand": "npx next build",
+  "installCommand": "npm install",
+  "devCommand": "npx next dev",
+  "regions": ["sin1"],
+  "env": {
+    "OPENAI_API_KEY": "@openai-api-key",
+    "OPENAI_BASE_URL": "@openai-base-url",
+    "OPENAI_MODEL": "@openai-model"
+  }
+}
